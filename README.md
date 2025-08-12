@@ -9,10 +9,12 @@ The two datasets (RAVDESS,IEMOCAP) are available from this link:
 ## data processing
 ### RAVDESS
 Preprocessing scripts are located in ravdess_preprocessing/ Inside each of three scripts, specify the path (full path!) where you have downloaded the data. Then run:  
+```
 cd ravdess_preprocessing  
 python extract_faces.py  
 python extract_audios.py  
-python create_annotations.py  
+python create_annotations.py
+```
 ### IEMOCAP
 cd ravdess_preprocessing  
 python extractor_iemocap.py
