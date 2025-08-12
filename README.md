@@ -26,7 +26,7 @@ As a result you will have annotations.txt file that you can use further for trai
 ## training
 For visual module weight initialization, download the pre-trained EfficientFace from here under 'Pre-trained models'. In our experiments, we use the model pre-trained on AffectNet7, i.e., EfficientFace_Trained_on_AffectNet7.pth.tar. If you want to use a different one, download it and later specify the path in --pretrain_path argument to main.py. Otherwise, you can ignore this step and train from scratch (although you will likely obtain lower performance).  
 
-### For training,You can check or change some parameters in the opts.py, then run:
+#### For training,You can check or change some parameters in the opts.py, then run:
 ```
 python main.py
 ```
